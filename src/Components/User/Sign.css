@@ -1,0 +1,9 @@
+.Popup{
+    width: 713px;
+    position: absolute;
+    background-color: cornsilk;
+    height: 500px;
+    padding-left: -44px;
+    margin-left: 200px;
+    padding-top: 150px;
+}

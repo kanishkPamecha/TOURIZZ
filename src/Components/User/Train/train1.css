@@ -1,0 +1,89 @@
+.box{
+    max-width: 700px;
+    border: black;
+    border-width: 5px;
+    /* margin-left: 30%; */
+    margin-top: 100px;
+    box-sizing: border-box;
+    border:5px ;
+    /* display: flex; 
+    justify-content: center; */
+    
+}
+#black-border11{
+    background-image: url(../../../images/trAA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;   
+}
+
+.bor{ background-color: aquamarine;
+min-width: 100%;
+
+}
+
+
+
+.box{
+    background-color:#4cb2902e;
+}
+#date{
+      margin-left: 20%;
+      margin-top: 5%;
+}
+.fill{
+    min-width: 100%;
+}
+#highlight{
+    background-color: #778a7ccf;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 1%;
+}
+.Highlight {
+    background-color: #d5d5d5cf;
+    padding: 1px;
+}
+.block{
+    background-color: #eaedebcf;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+#inner_block{
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.start{
+ 
+        display: flex;
+        justify-content: left;
+    }
+    .end 
+    {
+        display: flex;
+        justify-content:right;
+    }
+    .flex{
+        display: inline;
+        justify-content: space-between;
+    }
+    .btn1{
+        min-width:15%;
+        max-height: 7% ;
+        overflow: hidden;
+        margin-left: 10px ;
+    }
+ 
+.black-border {
+    border: 2px solid black;
+    padding: 10px; /* Optional: Add padding to give some space around the content */
+    margin-left: 10%;
+    margin-right: 10%;
+  
+  }
+  

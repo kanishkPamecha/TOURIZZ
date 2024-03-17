@@ -1,0 +1,10 @@
+.BAck_admin{
+    /* background-image: url('../../AdminPage/Pamecha.jpg');  */
+    min-height: 100vh!important;
+    max-height: 100vh!important;
+    min-width: 100lvw !important;
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+   
+}

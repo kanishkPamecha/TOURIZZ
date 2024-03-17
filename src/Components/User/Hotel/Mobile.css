@@ -1,0 +1,68 @@
+.Location_Mobile{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_mobile{
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap;}
+.button_mobile {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px; 
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+  }
+
+/* Common styles for buttons in the navigation bar */
+.bottom-nav button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #efefef;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .bottom-nav button:hover {
+    /* background-color: #2980b9;
+     */
+  }
+  
+  /* Styles for the container of the bottom navigation */
+  .bottom-nav-container {
+    /* display: inline; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: solid;
+    border-radius: 1px;
+    /* display: flex; */
+    justify-content: space-around;
+    background-color: #ffffff;
+    z-index: 1000;
+  }
+  
+  /* Media query for small screens (e.g., mobile devices) */
+  @media only screen and (max-width: 600px) {
+    .bottom-nav-container {
+      flex-direction: column;
+    }
+  }
+  
+  .like-button{
+    background-color: #ffffff00;
+    border:  black;
+    border-width:1px ;
+    border-radius:1px ;
+    position: absolute;
+  }
+  .bhari{
+    background-color: #fafafa33!important;
+    color: black;
+  }

@@ -1,0 +1,23 @@
+.size{
+  max-height: 500px;
+    display: flex;
+
+    border: 3px;
+    border-color: aqua;
+}
+.dis_txt{
+    display:flex ;
+    padding-left: 10%;
+    padding-top: 70px;
+}
+.text{
+    padding-left: 30px;
+}
+.inline_dis{
+    display: inline-flex;
+    max-width: 100px;
+    min-width:70px;
+}
+.block{
+    display: block;
+}

@@ -1,0 +1,233 @@
+
+#highlightss{
+  
+  background-color: aliceblue;
+  border-bottom: 2px solid;
+ display: flex; 
+ margin-top: -20px;
+    justify-content: space-between;
+}
+ .block{
+  margin: 3vw;
+ }
+ .flex_btn{
+  display: flex;
+  justify-content: center;
+ }
+
+
+.common-label{
+  max-width: 130px;
+  min-width: 130px;
+}
+
+@media (min-width: 768px) {
+  
+ .input-container {
+  display: flex;
+  width:100%;
+}
+.hullalle-huu{
+  min-width:80%;
+}
+.hullalle {display:flex;}
+    .Flight_Details{
+       
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+      }
+      .bg{
+      
+        width:100%;
+        
+      }
+      .iiinnput {
+        flex: 1;
+        height: 40px; /* Adjust the height as needed */
+        box-sizing: border-box;
+        width: 100%;
+        margin-right: 10px; /* Adjust the spacing between the inputs as needed */
+      }
+      .dateInput{
+        padding-left: 5 px;
+      }
+      .hellulu{ 
+          margin-top: 3vw;margin-bottom:3vw;
+      }
+    }
+  
+ 
+  @media (max-width: 767px) {
+  .hellulu{
+       margin-left: 3vw;
+       margin-right: 3vw;
+  }
+      .Flight_Details{
+        background-color: gainsboro;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-direction: column;
+           
+              padding :4%;
+              
+      }
+    
+      .hullalle {}
+      .iiinnput {
+        flex: 1;
+        height: 40px; /* Adjust the height as needed */
+        box-sizing: border-box;
+        margin-right: 10px; /* Adjust the spacing between the inputs as needed */
+      }
+     
+      .inner{
+      
+        display: flex;
+        justify-content: 'center';
+        align-items: center;
+        margin-bottom: 10px;
+        padding-left: 3%;
+        padding-right: 3%
+      }
+      .align{
+        align-content: center!important;
+      }
+    .box {
+        max-width: 100%;
+        margin: 30px auto;
+        border-width: 3px;
+    }
+
+    #date1 {
+        margin: 3%;
+    }
+
+    .black-border {
+        margin-right: 5%;
+    }
+
+    .box2 {
+        margin-left: 0;
+        margin-top: 8px; margin-right:15px ;}
+
+    .btn1 {min-width: 50px;max-height: 40px;overflow: hidden;margin-left: 5px; }}
+.Background_Plane{ padding-top:100px!important;padding:30px;}
+
+
+.box {
+  width: 100%;
+  max-width: 312px;
+  padding: 36px 32px 48px 32px;
+  background: #fff;
+  border-radius: 9px;
+  box-shadow: 0 1px 4px rgba(18, 22, 33, .12);
+}
+
+.box h3 {
+  font-family: inherit;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: #3F4656;
+}
+
+.box h3 span {
+  font-weight: 500;
+}
+
+.box .values {
+  margin: 0;
+  font-weight: 500;
+  color: #275efe;
+}
+
+.box small {
+  color: #99A3BA;
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.box .slider {
+  margin-top: 40px;
+}
+
+.slider {
+  height: 23px;
+  width: 100%;
+  position: relative;
+  pointer-events: none;
+}
+
+.slider .ui-slider-handle {
+  cursor: grab;
+  -webkit-tap-highlight-color: transparent;
+  top: 0;
+  width: 23px;
+  height: 23px;
+  transform: translateX(-50%);
+  position: absolute;
+  outline: none;
+  display: block;
+  pointer-events: auto;
+}
+
+.slider .ui-slider-handle div {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  transition: background .4s ease;
+  transform: translateY(calc(var(--y) * 1px));
+  border: 2px solid #275efe;
+  background: #fff;
+}
+
+.slider .ui-slider-handle:hover div {
+  background: #f1f5fe;
+}
+
+.slider .ui-slider-handle:active div {
+  background: #c5d2f9;
+  cursor: grabbing;
+}
+
+.slider svg {
+  display: block;
+  height: 83px;
+}
+
+.slider svg path {
+  fill: none;
+  stroke: #cdd9ed;
+  stroke-width: 1;
+}
+
+.slider .active,
+.slider > svg {
+  position: absolute;
+  top: -30px;
+  height: 83px;
+}
+
+.slider > svg {
+  left: 0;
+  width: 100%;
+}
+
+.slider .active {
+  position: absolute;
+  overflow: hidden;
+  left: calc(var(--l) * 1px);
+  right: calc(var(--r) * 1px);
+}
+
+.slider .active svg {
+  stroke: #275efe;
+  position: relative;
+  left: calc(var(--l) * -1px);
+  right: calc(var(--r) * -1px);
+  stroke-width: 2;
+}

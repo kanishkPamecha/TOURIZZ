@@ -1,0 +1,85 @@
+/* Buses.css */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #ff6b6b, #ffa46b);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+ .btnWidth{ max-height: 36px;}
+.Padding_bus{
+  padding: 0px!important;
+}
+.bus-seat-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.bus-seats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: #fff;
+  border: 1px solid #45a049;
+}
+
+.heroStyle{
+  z-index: 2;
+  margin-top: -24px;
+  position: absolute;
+  margin-left: 30%;}
+  .Padding_bus{
+    background-image: url('https://cdn.pixabay.com/photo/2016/12/20/02/15/vanagon-1919554_1280.jpg');
+    background-size: contain;
+    /* min-height: 60vh; */
+    background-repeat: repeat-x;
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .foreground-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* Place it above other content */
+    pointer-events: none; /* Allows interactions with content underneath */
+  }
+  .Main{
+    margin-top: 150%;
+  }
+  .backgroud{
+    min-width: 30%;
+    background-color: rgb(201, 192, 201);
+    min-height: 50%;
+  }
+/* BusSeatSelection.css */
+

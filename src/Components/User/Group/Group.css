@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    border-radius: 0.5px;
+    border-color: black;
+}
+.image{
+    max-height:300px;
+}
+.border{
+    border-radius: 2px;
+    border-color: black;
+}
+.Hotelpage{
+    display:flex
+}
+.city-list {
+    margin-bottom: 3px;
+  }
+  
+  .city-name {
+  
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  
+  .place-list {
+    background-color: #e2ddd9;
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  
+  .place-name {
+    margin: 3px;
+  }
+  
+  .transport-list {
+    background-color: #d8c8b8;
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  
+  .transport-name {
+    margin: 3px;
+  }
+  
+  .endd {
+    margin-left: 5px;
+  }
+  
+  .disp {
+    display: flex;
+    align-items: center;
+  }
+  .pexel{
+    max-width: 50px;
+  }
+  .city-name{
+    background-color: rgb(46, 202, 202);
+    margin :5px;
+  }
+  .para{
+    background-color: rgba(151, 227, 217, 0.16);
+    margin:0px;
+
+  }
+  .marg{
+    margin: 30px;
+  }
+  
+  .bg{
+    background-color: #8db0bbb0;
+  }
+  .city{
+    background-color: #014f86;
+  }
+  .transport {
+    background-color:#2a6f97;
+  }
+  .place{
+    background-color: #89c2d9!important;
+  }
+  .flex{
+    display: flex!important;
+    justify-content: space-around;
+  }
+  .image{
+    max-width: 100px;
+    /* max-height: 1%; */
+  }
+  .neww{
+    display: flex;
+  }

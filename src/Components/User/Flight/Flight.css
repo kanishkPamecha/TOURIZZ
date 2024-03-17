@@ -1,0 +1,12 @@
+.fromtowidth{
+   min-width:10% ;
+    display: flex;
+    padding: 5px;
+ 
+}
+.Flight_Details{
+    margin: 5px;
+    display: flex;
+    margin: 30%;
+}
+

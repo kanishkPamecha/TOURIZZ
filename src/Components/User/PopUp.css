@@ -1,0 +1,314 @@
+ /* .Container {
+    height: 200px;
+    min-width: 700px;
+    min-height: 501px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0) 0px 7px 29px 0px;
+    background-color: rgb(171 171 171 / 80%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    
+  } */
+  /* Add this CSS to your existing stylesheet */
+/* 
+.Container {
+  /* Your existing styles... */
+  /* position: relative; /* Added for positioning the checkboxes */
+/* }  */
+
+/* .password-input {
+  position: relative;
+}
+
+.show-password-checkbox {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; 
+}
+@media only screen and (min-width: 601px) {
+  .inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .inner div {
+    margin-bottom: 20px; 
+  }
+
+  .show-password-checkbox,
+  .show-password-checkbox1 {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: none;
+    width: 20px; 
+  }
+}
+
+.show-password-checkbox1 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+}
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 227, 227, 0.5);
+    z-index: 9998;
+  }
+ 
+.Container {
+ 
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input[type="password"] {
+  padding-right: 30px;
+}
+
+.show-password-checkbox {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+button[type="submit"],
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+  .inner{
+    background: color 0; 
+    flex-direction: column;
+  }
+  .Acc{max-width: 50px;
+    border-radius: 100px;}
+ 
+.password-input {
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.password-input.visible {
+  background-color: white;
+  border-color: #ccc;
+}
+
+.show-password-checkbox {
+  margin-top: 4px;
+}  */
+/* Container styles */
+.Container {
+  min-width: 300px;
+  /* margin:5% ; */
+  padding-left: 5%;
+  padding-right: 5%;
+
+  max-width: 700px;
+  min-height: 501px;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0) 0px 7px 29px 0px;
+  background-color: rgb(171 171 171 / 80%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.Container5 {
+  min-width: 300px;
+  /* margin:5% ; */
+  padding-left: 5%;
+  padding-right: 5%;
+
+  max-width: 700px;
+  min-height: 501px;
+  border-radius: 10px;
+  box-shadow: rgb(100, 249, 160) 0px 7px 29px 0px;
+  background-color: rgba(132, 216, 171, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Responsive adjustments for laptops */
+@media only screen and (max-width: 1200px) {
+  .Container {
+    top: 70%;
+    max-width: 80%;
+  }
+}
+
+/* Overlay styles */
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 227, 227, 0.5);
+  z-index: 9998;
+}
+
+/* Inner container styles */
+.inner {
+  background: none; 
+  flex-direction: column;
+}
+
+/* Account styles */
+.Acc {
+  max-width: 50px;
+  border-radius: 100px;
+}
+
+/* Password input styles */
+.password-input {
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.password-input.visible {
+  background-color: white;
+  border-color: #ccc;
+}
+
+/* Show password checkbox styles */
+.show-password-checkbox {
+  margin-top: 4px;
+}
+
+/* Additional styles for form elements */
+.Container {
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-input input[type="password"] {
+  padding-right: 30px;
+}
+
+.show-password-checkboxa {
+  position: absolute;
+ /* position: relative; */
+  margin-top: 5%;
+  right: 4px;
+  width: 42px;
+  height: 43px;
+  transform: translateY(-50%);
+}
+
+.show-password-checkbox1 {
+  position: absolute;
+  right: 10px;
+  
+  /* top: 50%; */
+  transform: translateY(-50%);
+}
+
+/* Button styles */
+button[type="submit"],
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}

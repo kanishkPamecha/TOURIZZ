@@ -1,0 +1,23 @@
+
+.container {
+    background-color:antiquewhite;
+    display: block;
+    position:50% 50%;
+     height: 200px;
+        min-width: 700px;
+        min-height: 501px;
+        border-radius: 10px;
+        box-shadow: rgb(0 0 0) 0px 7px 29px 0px;
+        background-color: rgb(171 171 171 / 80%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    
+}

@@ -1,0 +1,154 @@
+.container{
+    display: flex;
+    border-radius: 0.5px;
+    border-color: black;
+}
+.image{
+    max-height:300px;
+}
+.border{
+    border-radius: 2px;
+    border-color: black;
+}
+.Hotelpage{
+    display:flex
+}
+.city-list {
+    margin-bottom: 3px;
+  }
+  
+  .city-name {
+    background-color: lightblue;
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  /* .navbar {
+    margin-left: 33%;
+  } */
+  /* Add this CSS to your existing stylesheet or create a new one */
+
+/* Center the navigation */
+.text-center {
+  text-align: center;
+}
+
+/* Style the navigation */
+.navbar-toggler {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  background-color: #000; /* Color of the toggler icon */
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px; /* Adjust spacing between items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link.active {
+  font-weight: bold; /* Style for active link */
+}
+
+/* Style the "Save as PDF" button */
+.btn-primary {
+  min-width: 15%;
+  /* max-height:  1%!important; */
+  background-color: #B164e8; /* Primary button color */
+  border-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #8900f2;
+  color: #f2f3f4; /* Button color on hover */
+}
+.Display{
+  display: inline;
+}
+
+.rounded-pill {
+  border-radius: 50px; /* Curved border */
+}
+
+  
+  .place-list {
+    background-color: lightgreen;
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  
+  .place-name {
+    margin: 3px;
+  }
+  
+  .transport-list {
+    background-color: lightyellow;
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  
+  .transport-name {
+    margin: 3px;
+  }
+  
+  .endd {
+    margin-left: 5px;
+  }
+  
+  .disp {
+    display: flex;
+    align-items: center;
+  }
+  .pexel{
+    max-width: 50px;
+  }
+  .city-name{
+    background-color: rgb(46, 202, 202);
+    margin :5px;
+  }
+  .para{
+    background-color: rgba(151, 227, 217, 0.16);
+    margin:0px;
+
+  }
+  .marg{
+    margin: 30px;
+  }
+  
+  .bg{
+    background-color: #8db0bbb0;
+  }
+  .city {
+      background-color: #8897aeb5!important;
+  }
+  .transport{
+      background-color: #4a4a4a!important;
+  }
+  .Hotel {
+      background-color: #7a7c7d8a!important;
+  }
+  .place{
+      background-color: #7e99a4!important;;
+  }
+  .flex{
+    display: flex!important;
+    justify-content: space-around;
+  }
+  .image{
+    max-width: 100px;
+    /* max-height: 1%; */
+  }

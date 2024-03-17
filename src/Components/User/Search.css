@@ -1,0 +1,41 @@
+/* Search.css */
+.search-container {
+    position:absolute; /* Set the container to fixed positioning */
+    margin-top: 50%;
+     /* Adjust top position as needed */
+    margin-left: 25%; 
+    /* Adjust right position as needed */
+    /*
+    border-radius: 10px;
+    padding: 10px;
+     */ 
+     border: 1px solid #ccc;
+    width: 50%;
+    /* max-width: 300px; */
+    background-color: #f5f5f5;
+  }
+  
+  .search-input {
+    width: calc(100% - 50px);
+    padding: 8px;
+    border: black;
+    border-radius: 5px;
+    margin-right: 22px;
+    border-radius: 10%;
+  }
+  
+  .search-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #479df9;
+    color: #fff;
+    display: inline;
+
+    cursor: pointer;
+  }
+  .FormSearch
+  {
+    display: flex;
+    align-items: center;
+  }

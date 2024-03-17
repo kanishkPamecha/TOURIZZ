@@ -1,0 +1,252 @@
+.box{
+    max-width: 700px;
+    border: black;
+    border-width: 5px;
+    margin-left: 10%!important;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border:5px ;
+    
+    /* display: flex; 
+    justify-content: center; */
+    
+}
+.box1{
+    background-image: url('../../../images/rails.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+   min-height: 100vh;
+   margin-top: 40px;
+   /* Make it some black over it to make it dull */
+}
+ 
+.overlayyy1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.433); /* Adjust the last value (0.5) for opacity */
+}
+.box{
+    background-color:#ffffffc8!important;
+}
+#date{
+      margin-left: 20%;
+      margin-top: 5%;
+}
+.desktop1{
+   margin-left: 5%;
+   margin-right: 5%;
+    position:relative;
+}
+.btn_Click_Train_done{
+    margin-top: 2.7%;
+    margin-left: -2%;
+    position: absolute;
+ background-color: #8610a0cf;
+}
+.input_inner_main
+{   min-width: 200px;
+    max-width: 200px;
+    background: none;
+ margin: 0%!important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+  border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+  max-height: 30px!important;
+}
+
+.fill{
+    min-width: 100%;
+}
+.black-border11{
+    background-image: url(../../../images/trAA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    
+}
+
+#date{
+    margin-top: 0%!important;
+}
+#highlight{
+    background-color: #778a7ccf;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 1%;
+}
+.Highlight {
+    background-color: #d5d5d5cf;
+    padding: 1px;
+}
+.block{
+    background-color: #eaedebcf;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+#inner_block{
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.start{
+ 
+        display: flex;
+        justify-content: left;
+    }
+    .end 
+    {
+        display: flex;
+        justify-content:right;
+    }
+    .flexx{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .flex{
+        display: inline;
+        justify-content: space-between;
+    }
+    .btn1{
+        min-width:15%;
+        max-height: 7% ;
+        overflow: hidden;
+        margin-left: 10px ;
+    }
+ 
+.black-border {
+    border: 2px solid black;
+    padding: 10px; /* Optional: Add padding to give some space around the content */
+    margin-left: 1%;
+    margin-right: 27%;
+  
+  }
+  .box2{
+
+    margin-left: 5%!important;
+    margin-top: 8px!important;
+  }
+  .checkbox-group {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  @media (min-width: 767px) {
+    .mobile {
+      display: none;
+    }
+  
+    .desktop {
+      display: block inline;
+    }
+   
+  }
+  
+ 
+  @media (max-width: 766px) {
+    .desktop {
+        display: none;
+      }
+      .align{
+        align-content: center!important;
+      }
+    .box {
+        max-width: 100%;
+        
+        border-width: 3px;
+    }
+
+    #date {
+        margin: 3%;
+    }
+
+    .black-border {
+        margin-right: 5%;
+    }
+
+    .box2 {
+        margin-left: 0;
+        margin-top: 8px;
+        margin-right:15px ;
+    }
+
+    .btn1 {
+        min-width: 50px;
+        max-height: 40px;
+        overflow: hidden;
+        margin-left: 5px;
+    }
+}
+   
+
+
+/* YourComponent.css */
+
+/* Common styles for both desktop and mobile */
+
+  /* Styles for desktop screens */
+  @media (min-width: 500px) {
+    .custom-container_irctc {
+        display: flex;
+        align-items: center;
+        margin: 5%;
+        justify-content: space-between;
+        max-width: 95%;
+
+      }
+      .KSPHM{
+           display: flex;
+      } 
+      .visibille{
+        visibility:visible;
+      }
+      .invisibille{
+        visibility:hidden;
+      }
+  }
+  .changesinIRCTC{
+    min-width: 30vw;
+  }
+  .image_irctc {
+    max-width: 20px;
+    max-height: 20px;
+    
+  }
+  /* Styles for mobile screens */
+  @media (max-width: 500px) {
+    .visibille{
+        visibility: collapse;
+      }
+      .invisibille{
+        visibility: visible;
+      }
+    .KSPHM{
+        
+    }
+    .box{
+
+        margin-left: 10%!important;
+        margin-right: 1%;
+    }
+    .custom-container_irctc {
+        
+        display: flex;
+        align-items: center;
+        margin: 5%;
+        justify-content: space-between;
+        max-width: 95%;
+        flex-direction: column;
+      }
+      
+  }
+  
